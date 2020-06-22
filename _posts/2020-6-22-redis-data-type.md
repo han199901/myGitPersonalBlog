@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第一次接触gitee pages 和 jekyll
+title: Redis 数据类型(一)
 date: 2020-06-22
 categories: 技术
 tags: Redis 
