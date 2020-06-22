@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 第一次接触gitee pages 和 jekyll
-date: 2017-07-30
+date: 2020-06-22
 categories: 生活
 tags: gitee jekyll 
 ---
