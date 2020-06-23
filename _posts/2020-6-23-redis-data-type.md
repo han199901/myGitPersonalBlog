@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redis 数据类型（二）
-date: 2017-06-23
+date: 2020-06-23
 categories: 技术
 tags: Redis
 ---
