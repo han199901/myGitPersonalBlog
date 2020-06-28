@@ -70,3 +70,33 @@ $ sudo apt-get install -y rabbitmq-server
   ~~~shell
   $ sudo service rabbitmq-server status
   ~~~
+
+### 日志
+
+服务器的输出被发送到 `RABBITMQ_LOG_BASE` 目录的 `RABBITMQ_NODENAME.log` 文件中。一些额外的信息会被写入到 `RABBITMQ_NODENAME-sasl.log` 文件中。
+
+代理总是会把新的信息添加到日志文件尾部，所以完整的日志历史可以被保存下来。
+
+你可以使用 logrotate 程序来执行必要的循环和压缩工作，并且你还可以更改它。默认情况下，脚本会每周执行一次对这些位于 `/var/log/rabbitmq/` 文件夹中的日志的处理。
+
+你可以查看 `/etc/logrotate.d/rabbitmq-server` 来对 logrotate 进行配置。
+
+查看日志的内容可以使用如下的方式：
+
+~~~shell
+# servername 是指你的主机名
+$ less  /var/log/rabbitmq/rabbit@servername.log
+~~~
+
+### RabbitMQ 所支持的编程语言
+
+- C# (using .net/c# client)
+- clojure (using Langohr)
+- erlang (using erlang client)
+- java (using java client)
+- javascript/node.js (using amqp.node)
+- perl (using Net::RabbitFoot)
+- python (using pika)
+- python-puka (using puka)
+- ruby (using Bunny)
+- ruby (using amqp gem)
