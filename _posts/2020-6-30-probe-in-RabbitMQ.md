@@ -1,5 +1,5 @@
 ---
-现在，我们就可以发送消息到一个具体名字的交换机了：layout: post
+layout: post
 title: 初探 RabbitMQ （四）
 date: 2020-06-30
 categories: 技术
