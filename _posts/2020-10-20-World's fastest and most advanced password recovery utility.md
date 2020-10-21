@@ -143,7 +143,7 @@ Usage: hashcat [options]... hash|hashfile|hccapxfile [dictionary|mask|directory]
 - -w  启用特定的工作负载配置文件，请参见下面的池
 
   - ~~~
-    - [ Workload Profiles ] -
+    [ Workload Profiles ]
     
       # | Performance | Runtime | Power Consumption | Desktop Impact
      ===+=============+=========+===================+=================
