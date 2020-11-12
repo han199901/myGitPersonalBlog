@@ -8,7 +8,7 @@ tags: Vue
 
 又要写一学期一度的大作业，这次试试用下 Vue， 下面是踩坑集锦 (— —!).
 
-## Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
+### Component template should contain exactly one root element. If you are using v-if on multiple elements, use v-else-if to chain them instead.
 
 第一次写 template 试了一下 ElementUI 的一个样例，直接粘贴到 template 内报错了
 
@@ -80,5 +80,17 @@ tags: Vue
 		</el-row>
 	</div>
 </template>
+~~~
+
+### 配置路径别名
+
+~~~javascript
+// vue.config.js
+module.exports = {
+  "transpileDependencies": [
+    "vuetify"
+  ]
+    
+}
 ~~~
 
