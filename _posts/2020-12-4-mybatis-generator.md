@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mybatis-generator基本配置
+title: mybatis-generator 基本配置
 date: 2020-12-04
 categories: 技术
 tags: mybatis
@@ -71,6 +71,3 @@ tags: mybatis
     </context>
 </generatorConfiguration>
 ~~~
-
-
-
