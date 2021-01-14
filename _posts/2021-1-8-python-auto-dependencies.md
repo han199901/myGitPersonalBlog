@@ -1,7 +1,7 @@
 ---
 layout: post
 title: python-auto-dependencies
-date: 2020-12-04
+date: 2021-01-08
 categories: 技术
 tags: python
 ---
