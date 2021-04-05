@@ -1,12 +1,16 @@
 ---
 layout: post
-title: Syntax Error: Error: Node Sass does not yet support your current environment: OS X Unsupported architecture (arm64) with Unsupported runtime (88)
+title: Upgrading NodeJS causes Sass compilation error
 date: 2021-04-05
 categories: 技术
 tags: NodeJS
 ---
 
 ### MacOS 更换 NodeJS 后 Sass 报错
+
+~~~bash
+Syntax Error: Error: Node Sass does not yet support your current environment: OS X Unsupported architecture (arm64) with Unsupported runtime (88)
+~~~
 
 ![node-error.png](https://i.loli.net/2021/04/05/Qy8MtvPDGNcKior.png)
 
