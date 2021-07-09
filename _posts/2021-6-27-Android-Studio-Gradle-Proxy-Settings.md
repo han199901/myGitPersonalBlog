@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Studio Gradle 设置代理
-date: 2021-04-07
+date: 2021-05-07
 categories: 技术
 tags: Android
 ---
